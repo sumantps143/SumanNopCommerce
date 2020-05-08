@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerceV1]">
+  <test thread-count="5" name="BankingApp Test(failed)">
+    <parameter name="browser" value="firfox"/>
+    <classes>
+      <class name="com.nopcommerce.testCases.TC_001_LoginTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_001_LoginTestCase -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [nopcommerceV1] -->

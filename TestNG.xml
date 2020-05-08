@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="nopcommerceV1">
+
+
+	<test name="BankingApp Test">
+    	<parameter name="browser" value="chrome" />
+	<classes>
+    	<class name="com.nopcommerce.testCases.TC_001_LoginTestCase" />
+	</classes>
+	</test>
+
+	</suite>
